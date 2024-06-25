@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(235, 229, 222);
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: rgb(54, 90, 90);
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    
+    top: 0;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li{
+    margin: 0 0.8rem;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem rgba(0,0,0,0.2);
+    margin: 1.2rem;
+    padding: 1.2rem;
+    
+    
+}
+#rice-coocker{
+    margin: 0.5rem;
+    padding: 1.5rem;
+}
+#pressure-coocker{
+    margin: 0.5rem;
+    padding: 1.5rem;
+}
+#iron-machine{
+    margin: 0.5rem;
+    padding: 1.5rem;
+}
+h2{
+    text-align: center;
+    color: rgb(32, 111, 114);
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: center;
+    color: rgb(128, 58, 58);
+    margin: 0.6rem;
+    padding: 0.3rem;
+}
+img{
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+button{
+    background-color: rgb(49, 122, 97);
+    color: #fff;
+    margin: 0.8rem 0;
+    padding: 0.5rem 1rem ;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(22, 43, 43);
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 1.2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer{
+    background-color:rgb(54, 90, 90) ;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+
+}
+.address{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.address h3{
+    margin: 0.4rem;
+    padding: 0.4rem;
+}
+.address p{
+    color: rgb(221, 229, 236);
+    margin: 0;
+    padding: 0.3rem;
+}
+.social-media ul{
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+}
+.social-media h3{
+    text-align: center;
+    padding: 0.5rem;
+}
+.social-media a{
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
